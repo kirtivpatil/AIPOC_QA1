@@ -4,7 +4,7 @@ test('Purchase Blackberry and verify success with screenshot', async ({ page }) 
   // Step 1: Navigate to the login page
   await page.goto('https://rahulshettyacademy.com/loginpagePractise/');
 
-  // Step 2: Sign in //comment
+  // Step 2: Sign in //
   await page.locator('#username').fill('rahulshettyacademy');
   await page.locator('#password').fill('Learning@830$3mK2');
   await page.locator('#signInBtn').click();
